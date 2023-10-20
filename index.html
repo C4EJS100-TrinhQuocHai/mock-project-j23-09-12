@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./util/notify.css">
+</head>
+
+<body>
+    <!-- 
+        phần header 
+        + logo của cửa hàng
+        + các thanh navigation
+        + icon giỏ hàng
+        + đăng nhập
+        + đăng kí
+        + thông tin user
+    -->
+    <div class="header">
+        <div class="header__logo">
+            <!-- logo -->
+            <img src="./assets/images/logo.png" alt="">
+            <span class="header__logo--title">Rikkei shop</span>
+        </div>
+        <div class="header__navigation">
+            <!-- thanh điều hướng đến các trang -->
+            <ul>
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Thông tin</li>
+                <li>Liên hệ</li>
+                <li>Bản tin</li>
+            </ul>
+        </div>
+        <div class="header__cart">
+            <!-- icon cart -->
+            <img src="./assets/images/cart.png" alt="">
+            <span class="count">0</span>
+        </div>
+        <div class="header__sign">
+            <div class="header__login">
+                <button class="btn">
+                    <a href="./pages/login.html">login</a>
+                </button>
+            </div>
+            <div class="header__login">
+                <button class="btn">
+                    <a href="./pages/register.html">register</a>
+                </button>
+            </div>
+            <div class="header__user" style="display: none;">
+              <img width="30" height="30" src="./assets/images/user.png" alt="">
+              
+            </div>
+        </div>
+    </div>
+    <!--
+         phần banner
+        + phần slide ảnh
+    -->
+    <div class="banner">
+        <img src="./assets/images/banner1.jpg" alt="">
+    </div>
+    <div class="products">
+       <!--  <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake1.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div>
+        <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake2.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div>
+        <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake3.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div>
+        <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake4.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div>
+        <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake5.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div>
+        <div class="products__item">
+            <p class="products__item--image"><img src="./assets/images/cake6.jpg" alt=""></p>
+            <p>Tên sản phẩm</p>
+            <p>Giá</p>
+            <button class="buy">Mua Ngay</button>
+        </div> -->
+    </div>
+    <!-- 
+        phần danh mục sản phẩm 
+        + phân loại sản phẩm 
+        + sắp xếp sản phẩm
+        + tìm kiếm
+        + phân trang
+    -->
+    <!-- footer -->
+<div id="snackbar">Some text some message..</div>
+
+<script src="./util/convertMoney.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/buyCart.js"></script>
+<script src="./util/notify.js"></script>
+
+</body>
+
+</html>
